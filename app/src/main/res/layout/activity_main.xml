@@ -7,12 +7,34 @@
     tools:context=".activity.MainActivity">
 
     <TextView
+        android:id="@+id/actMain_tvUserName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:padding="@dimen/_10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/actMain_tvSignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10dp"
+        android:text="@string/sign_out"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/_20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/actMain_rvContact"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/actMain_tvUserName" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -41,10 +41,6 @@ class SignUpActivity : AppCompatActivity() {
                         Constant.EMAIL,
                         actSignUp_etEmail.text.toString().trim()
                     )
-                    preferenceManager.putString(
-                        Constant.PASSWORD,
-                        actSignUp_etPassword.text.toString().trim()
-                    )
                     val intent = Intent(this, MainActivity::class.java)
                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)

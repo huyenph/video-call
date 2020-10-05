@@ -9,5 +9,7 @@ class Constant {
         const val PASSWORD = "password"
         const val KEY_PREFERENCE = "key_preference"
         const val IS_SIGNED_IN = "is_signed_in"
+        const val USER_ID = "user_id"
+        const val FCM_TOKEN = "fcm_token"
     }
 }
