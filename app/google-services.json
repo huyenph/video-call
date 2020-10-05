@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1013041499911",
+    "firebase_url": "https://videocall-1563c.firebaseio.com",
+    "project_id": "videocall-1563c",
+    "storage_bucket": "videocall-1563c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013041499911:android:5f1d66d96d04054a61ffa2",
+        "android_client_info": {
+          "package_name": "com.utildev.videocall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013041499911-ghnfe6aunlumc4575c1v84g1af8fho60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaySc-L3oIo-xEnJf-U6nU-rC-2PF4WDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013041499911-ghnfe6aunlumc4575c1v84g1af8fho60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
